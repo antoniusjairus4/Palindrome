@@ -1,5 +1,6 @@
 import os
 import logging
+# pyrefly: ignore [missing-import]
 from ultralytics import YOLO
 
 # Set up logging
@@ -9,6 +10,7 @@ logger = logging.getLogger("ML_Inference")
 # Determine model weights path candidates
 BASE_DIR = "/home/jairus/Antonius Jairus/Projects/Palindrome"
 weights_candidates = [
+    os.path.join(BASE_DIR, "models/best.pt"),
     os.path.join(os.path.dirname(__file__), "best.pt"),
     os.path.join(BASE_DIR, "runs/detect/train-7/weights/best.pt"),
     os.path.join(BASE_DIR, "runs/detect/train-6/weights/best.pt"),

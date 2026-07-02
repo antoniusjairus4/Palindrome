@@ -51,3 +51,4 @@ yolov8s.pt
 yolo11n.pt
 yolo26n.pt
 ml_pipeline/yolov8s.pt
+data/
