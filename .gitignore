@@ -1,0 +1,47 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+client/dist/
+
+# Environmental credentials / private keys
+.env
+server/.env
+
+# System-specific logs
+.DS_Store
+*.log
+
+# YOLO training and prediction runs
+runs/
+
+# Python virtual environment
+venv/
+
+# Machine learning model weights
+*.pt
+
+# Ignore your datasets
+mahb_dataset/
+handwritten_dataset/
+runs/
+venv/
+*.zip
+handwritten_dataset/
+kaggle_receipts/
+runs/
+mahb receipt.v1i.yolov8.zip
+
+dataset/
+runs/
+venv/
+__pycache__/
+*.ptdataset/
+runs/
+*.pt
+venv/
+__pycache__/
+.env
+ml_data/

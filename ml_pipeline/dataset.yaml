@@ -1,0 +1,31 @@
+# YOLOv8 Document AI Receipt Dataset Configuration
+# Template for Palindrome local receipt segmentation and labeling.
+
+# =========================================================================
+# INSTRUCTIONS:
+# Update the 'path' key below to reflect the absolute path of your dataset 
+# directory. Inside that directory, structure your data as follows:
+#
+# dataset_root/
+# ├── images/
+# │   ├── train/ (contains training images)
+# │   └── val/   (contains validation images)
+# └── labels/
+#     ├── train/ (contains YOLO format train .txt labels)
+#     └── val/   (contains YOLO format val .txt labels)
+# =========================================================================
+
+# Path to the dataset root folder (please modify to your absolute local directory path)
+path: /home/jairus/Antonius Jairus/Projects/Palindrome/ml_pipeline/dataset_root
+
+# Train and Validation folders relative to 'path'
+train: images/train
+val: images/val
+
+# Classes specification for Receipt Document AI Parser
+nc: 4
+names:
+  0: line_item
+  1: merchant_name
+  2: total_amount
+  3: date

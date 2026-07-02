@@ -1,0 +1,6 @@
+ultralytics>=8.0.0
+onnx>=1.14.0
+onnxslim>=0.1.1
+pillow>=9.5.0
+opencv-python>=4.7.0.72
+numpy>=1.23.0
