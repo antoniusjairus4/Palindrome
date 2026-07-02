@@ -21,7 +21,6 @@ runs/
 venv/
 
 # Machine learning model weights
-*.pt
 
 # Ignore your datasets
 mahb_dataset/
@@ -38,10 +37,17 @@ dataset/
 runs/
 venv/
 __pycache__/
-*.ptdataset/
 runs/
-*.pt
 venv/
 __pycache__/
 .env
 ml_data/
+dataset/
+runs/
+venv/
+__pycache__/
+.env
+yolov8s.pt
+yolo11n.pt
+yolo26n.pt
+ml_pipeline/yolov8s.pt
